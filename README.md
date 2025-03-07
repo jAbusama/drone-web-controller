@@ -22,12 +22,17 @@ Node.js (version `18.20` or `18+` recommended)
 
 Fork or download this project
 
+add `VITE_API_BASE_URL=http://localhost:4001` to your `.env` file
+
 ```sh
 # install dependencies
 yarn
 
 # run the project
 yarn dev
+
+# to deploy to production
+yarn build
 ```
 
 # How to use
