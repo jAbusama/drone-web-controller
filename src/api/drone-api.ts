@@ -1,3 +1,4 @@
+import { BASE_URL } from './api';
 import { DroneResponse } from './model';
 
 export const instructDroneApi = async ({
@@ -9,7 +10,7 @@ export const instructDroneApi = async ({
 	const [, instruction] = queryKey;
 	console.log('intruction', instruction);
 	const response = await fetch(
-		`http://localhost:4001/instruct-drone?instructions=${instruction}`
+		`${BASE_URL}/instruct-drone?instructions=${instruction}`
 	);
 	console.log('response', response);
 	if (!response.ok) {
