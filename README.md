@@ -29,3 +29,11 @@ yarn
 # run the project
 yarn dev
 ```
+
+# How to use
+
+1. Click the direction control to any direction.
+2. Click the camera button to capture billboard.
+3. The result will be shown to capture billboard display.
+4. Click the billboard item to see all the details.
+5. Click the reset button to reset the drone instruction.
