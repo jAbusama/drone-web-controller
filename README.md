@@ -2,6 +2,8 @@
 
 use to send instructions to the drone or api
 
+Has two main UI Component. Captured Billboard display and Drone Controller
+
 ## Technology used
 
 React
@@ -21,7 +23,7 @@ Node.js (version `18.20` or `18+` recommended)
 Fork or download this project
 
 ```sh
-# install dependicies
+# install dependencies
 yarn
 
 # run the project
